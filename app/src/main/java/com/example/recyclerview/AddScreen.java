@@ -33,6 +33,8 @@ public class AddScreen extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),R.string.activity_add_screen_warningMessage, Toast.LENGTH_SHORT).show();
 
                 } else {
+
+
                     Intent intent = new Intent();
                     intent.putExtra(Utility.fullName, person.getText().toString());
                     if (man.isChecked()) {

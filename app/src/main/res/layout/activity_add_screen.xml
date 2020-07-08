@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/person"
             android:layout_marginRight="20dp"
-            android:hint="İsim Giriniz..">
+            android:hint="activity_add_screen_hint_person_editText">
 
         </EditText>
 
@@ -135,7 +135,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Kaydet"
+        android:text="activity_add_screen_button_save"
         android:id="@+id/addBtn">
 
     </Button>
