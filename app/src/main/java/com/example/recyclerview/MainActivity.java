@@ -14,8 +14,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.recyclerview.R.drawable.ic_action_calismiyor;
-
 public class MainActivity extends AppCompatActivity {
 
     List<KisiModel> kisiModels;
